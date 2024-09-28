@@ -46,15 +46,15 @@ public class ReadingDialogue : MonoBehaviour
         nextDialogue.SetActive(true);
         if (nextDialogue.name.Contains("King"))
         {
-            speaker.GetComponent<Text>().text = "King:";
+            speaker.GetComponent<Text>().text = "<b>King:</b>";
         }
         else if (nextDialogue.name.Contains("Peasant 1"))
         {
-            speaker.GetComponent<Text>().text = "Peasant 1:";
+            speaker.GetComponent<Text>().text = "<b>Peasant 1:</b>";
         }
         else if (nextDialogue.name.Contains("Peasant 2"))
         {
-            speaker.GetComponent<Text>().text = "Peasant 2:";
+            speaker.GetComponent<Text>().text = "<b>Peasant 2:</b>";
         }
         this.gameObject.SetActive(false);
     }
