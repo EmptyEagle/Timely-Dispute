@@ -35,7 +35,7 @@ public class ReadingDialogue : MonoBehaviour
             if (Input.GetKey("z") && scroll.secondsLeft > 0f)
             {
                 scroll.delay = 0.03f;
-                scroll.secondsLeft -= 0.1f;
+                scroll.secondsLeft -= 0.025f;
                 Debug.Log(scroll.secondsLeft);
             }
             currentText = fullText.Substring(0, i);
