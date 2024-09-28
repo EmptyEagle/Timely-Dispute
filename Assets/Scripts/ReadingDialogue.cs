@@ -21,6 +21,10 @@ public class ReadingDialogue : MonoBehaviour
         {
             currentText = fullText.Substring(0, i);
             this.GetComponent<Text>().text = currentText;
+            if (currentText.Length > 63)
+            {
+                currentText = "";
+            }
             yield return new WaitForSeconds(delay);
         }
     }
