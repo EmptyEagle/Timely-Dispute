@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: 'Peasant 1: Hello, this is a test of the dialogue box to see its functionality!'
+  fullText: C:\Users\cwuorine\Documents\GitHub\Timely-Disputes
 --- !u!114 &76386953
 MonoBehaviour:
   m_ObjectHideFlags: 0
