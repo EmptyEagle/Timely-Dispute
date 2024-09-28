@@ -20,22 +20,23 @@ public class Slowdown : MonoBehaviour
         barSize = transform.localScale;
         while (Input.GetKeyDown("z"))
         {
-            StartCoroutine(DecreaseTime());
+            //StartCoroutine(DecreaseTime());
         }
     }
 
-    IEnumerator DecreaseTime()
-    {
-        if (secondsLeft > 0)
-        {
-            secondsLeft -= 0.1f;
-            barSize.x -= 0.1f;
-            transform.localScale = barSize;
-        }
-        else
-        {
-            Debug.Log("You are out of juice!");
-        }
-        yield return new WaitForSeconds(.1f);
-    }
+    //IEnumerator DecreaseTime()
+    //{
+    //    if (secondsLeft > 0)
+    //    {
+    //        secondsLeft -= 0.1f;
+    //        barSize.x -= 0.1f;
+    //        transform.localScale = barSize;
+    //    }
+    //    else
+    //    {
+    //        Debug.Log("You are out of juice!");
+    //    }
+    //    yield return new WaitForSeconds(1f);
+    //}
+    // crashes game when z is pressed due to trying to change width every frame (try to fix)
 }
