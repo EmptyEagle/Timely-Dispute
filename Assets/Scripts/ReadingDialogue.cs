@@ -34,7 +34,7 @@ public class ReadingDialogue : MonoBehaviour
             scroll.delay = delayOverride;
             if (Input.GetKey("z") && scroll.secondsLeft > 0f)
             {
-                scroll.delay = 0.1f;
+                scroll.delay = 0.03f;
                 scroll.secondsLeft -= 0.1f;
                 Debug.Log(scroll.secondsLeft);
             }
