@@ -173,10 +173,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 666147606}
-  delay: 0.02
   fullText: " I don\u2019t have one. "
 --- !u!114 &71554259
 MonoBehaviour:
@@ -355,10 +356,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 71554256}
-  delay: 0.02
   fullText: 'I would have offered to replace it with a shovel of my own except '
 --- !u!114 &325705367
 MonoBehaviour:
@@ -453,10 +455,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 0}
-  delay: 0.05
   fullText: 'I see. So, it is restitution you seek is it not peasant 1? '
 --- !u!114 &371709017
 MonoBehaviour:
@@ -741,15 +744,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8e389535aafae144cb932d89ee3eb154, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fe3dbe661ca363a4685eb5bb1d280e0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.96, y: 7.32}
+  m_Size: {x: 4.08, y: 7.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &547966045
@@ -803,10 +806,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 2112648053}
-  delay: 0.02
   fullText: "Your eminence, this isn\u2019t the first time this has happened. "
 --- !u!114 &547966048
 MonoBehaviour:
@@ -901,10 +905,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 2138714406}
-  delay: 0.05
   fullText: 'If nothing else, it makes one hilarious story. '
 --- !u!114 &579322563
 MonoBehaviour:
@@ -1021,7 +1026,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 648c4cc652a3e694fb2d551fd7a72d58, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db0d62d123868ca4680f5e871997c57c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1029,7 +1034,7 @@ SpriteRenderer:
   m_Size: {x: 3.64, y: 7.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &666147606
@@ -1083,10 +1088,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 371709014}
-  delay: 0.01
   fullText: 'Neither can I afford one to give as it would affect my alcohol fund! '
 --- !u!114 &666147609
 MonoBehaviour:
@@ -1203,7 +1209,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b845e3400bb726441a0ddaea802f4b90, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dbe3d48534954a34f83c156397fb43b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1211,7 +1217,7 @@ SpriteRenderer:
   m_Size: {x: 12, y: 12.68}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &846660606
@@ -1265,10 +1271,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 1458609126}
-  delay: 0.04
   fullText: 'My king, this man stumbled into my garden drunk last night and '
 --- !u!114 &846660609
 MonoBehaviour:
@@ -1363,10 +1370,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 1644671406}
-  delay: 0.02
   fullText: "It was an accident your grace. He shouldn\u2019t have left the gate
     wide open! "
 --- !u!114 &852892877
@@ -1462,10 +1470,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 1
   nextDialogue: {fileID: 846660606}
-  delay: 0.05
   fullText: 'What brings you two here today? '
 --- !u!114 &956620731
 MonoBehaviour:
@@ -1746,10 +1755,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 579322560}
-  delay: 0.04
   fullText: 'That is all true, your excellence. '
 --- !u!114 &1306066738
 MonoBehaviour:
@@ -1844,10 +1854,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 1790704063}
-  delay: 0.05
   fullText: 'When I asked what happened to it he said '
 --- !u!114 &1326941551
 MonoBehaviour:
@@ -2050,7 +2061,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 325d0266b4fc9b744b2cd67250a4291d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ba39d8d0a3ce47f4dab2757607ef03a0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2058,7 +2069,7 @@ SpriteRenderer:
   m_Size: {x: 10.36, y: 11.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1458609126
@@ -2112,10 +2123,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 852892874}
-  delay: 0.04
   fullText: 'squished all my squashes. '
 --- !u!114 &1458609129
 MonoBehaviour:
@@ -2169,7 +2181,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1484605935}
   - component: {fileID: 1484605936}
-  - component: {fileID: 1484605937}
   m_Layer: 0
   m_Name: Bar
   m_TagString: Untagged
@@ -2241,22 +2252,9 @@ SpriteRenderer:
   m_Size: {x: 8.44, y: 1.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1484605937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484605934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1031ee083aa73214e8a032c630153cc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxSeconds: 8
 --- !u!1 &1618597233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,6 +2265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1618597235}
   - component: {fileID: 1618597234}
+  - component: {fileID: 1618597236}
   m_Layer: 0
   m_Name: Dialogue
   m_TagString: Untagged
@@ -2342,6 +2341,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1618597236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618597233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb4be9fded66184bbdedd271b03c047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.01
 --- !u!1 &1644671406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2393,10 +2405,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 547966045}
-  delay: 0.04
   fullText: 'So instead of squashed squashes I would have a broken gate and fence?! '
 --- !u!114 &1644671409
 MonoBehaviour:
@@ -2491,10 +2504,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 1306066735}
-  delay: 0.05
   fullText: "he \u201Cwas drunk and tried to use it as a jousting lance\u201D. "
 --- !u!114 &1790704066
 MonoBehaviour:
@@ -2669,10 +2683,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 1326941548}
-  delay: 0.03
   fullText: 'Last week he returned a shovel to me snapped in two. '
 --- !u!114 &2112648056
 MonoBehaviour:
@@ -2767,10 +2782,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6973fa94d7b54844789b196a68491f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scroll: {fileID: 1618597236}
+  delayOverride: 0.01
   speaker: {fileID: 1971429137}
   isFirst: 0
   nextDialogue: {fileID: 325705364}
-  delay: 0.03
   fullText: 'Besides I said I was sorry and apologized profusely. '
 --- !u!114 &2138714409
 MonoBehaviour:
