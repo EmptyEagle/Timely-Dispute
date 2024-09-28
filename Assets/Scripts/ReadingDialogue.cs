@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ReadingDialogue : MonoBehaviour
 {
+    public GameObject speaker;
     public bool isFirst = false;
     public GameObject nextDialogue;
     public float delay = 0.1f;
@@ -35,6 +36,18 @@ public class ReadingDialogue : MonoBehaviour
         }
         yield return new WaitForSeconds(.05f);
         nextDialogue.SetActive(true);
+        if (nextDialogue.name.Contains("King"))
+        {
+            speaker.GetComponent<Text>().text = "King:";
+        }
+        else if (nextDialogue.name.Contains("Peasant 1"))
+        {
+            speaker.GetComponent<Text>().text = "Peasant 1:";
+        }
+        else if (nextDialogue.name.Contains("Peasant 2"))
+        {
+            speaker.GetComponent<Text>().text = "Peasant 2:";
+        }
         this.gameObject.SetActive(false);
     }
 }
