@@ -34,6 +34,25 @@ public class AdvanceScene : MonoBehaviour
             {
                 SceneManager.LoadScene("Dispute 2");
             }
+            else if (currentScene == "Kingdom Peasant Locked" || currentScene == "Warlock Peasant Locked" || currentScene == "Solve Elsewhere" || currentScene == "Huh 2")
+            {
+                if (ButtonChoice.goodPoints == 4)
+                {
+                    SceneManager.LoadScene("Ending Good");
+                }
+                else if (ButtonChoice.goodPoints == 0)
+                {
+                    SceneManager.LoadScene("Ending Bad");
+                }
+                else
+                {
+                    SceneManager.LoadScene("Ending Neutral");
+                }
+            }
+            else if (currentScene == "Ending Good" || currentScene == "Ending Bad" || currentScene == "Ending Neutral")
+            {
+                Application.Quit();
+            }
         }
     }
 }

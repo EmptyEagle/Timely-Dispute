@@ -12,12 +12,10 @@ public class ButtonChoice : MonoBehaviour
     public GameObject choice1;
     public GameObject choice2;
     public bool isGood;
-
-    static int goodPoints;
+    public static int goodPoints;
     
     void Start()
     {
-        goodPoints = 0;
         arrows.SetActive(false);
     }
 
@@ -46,7 +44,7 @@ public class ButtonChoice : MonoBehaviour
             }
             speaker.SetActive(true);
             choice1.SetActive(true);
-            Debug.Log("Pressed up");
+            Debug.Log(goodPoints);
             this.gameObject.SetActive(false);
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
@@ -57,7 +55,7 @@ public class ButtonChoice : MonoBehaviour
             }
             speaker.SetActive(true);
             choice2.SetActive(true);
-            Debug.Log("Pressed down");
+            Debug.Log(goodPoints);
             this.gameObject.SetActive(false);
         }
         else if (scroll.hasThreeArrows && Input.GetKeyDown(KeyCode.RightArrow))
