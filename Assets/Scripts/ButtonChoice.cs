@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonChoice : MonoBehaviour
 {
@@ -58,6 +59,10 @@ public class ButtonChoice : MonoBehaviour
             choice2.SetActive(true);
             Debug.Log("Pressed down");
             this.gameObject.SetActive(false);
+        }
+        else if (scroll.hasThreeArrows && Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            SceneManager.LoadScene("War");
         }
     }
 }

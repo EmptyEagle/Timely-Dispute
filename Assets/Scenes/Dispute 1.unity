@@ -5062,8 +5062,10 @@ MonoBehaviour:
   delay: 0.01
   maxSeconds: 10
   secondsLeft: 0
-  knowsDrunk: 0
-  drunkTime: 0
+  knowsTruth: 0
+  keyWordTime: 0
+  hasThreeArrows: 0
+  level: 1
   endChoicesGood: {fileID: 670734959}
   endChoicesBad: {fileID: 1946340604}
 --- !u!1 &1621058275
