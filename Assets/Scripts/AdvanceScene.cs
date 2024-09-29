@@ -49,6 +49,10 @@ public class AdvanceScene : MonoBehaviour
                     SceneManager.LoadScene("Ending Neutral");
                 }
             }
+            else if (currentScene == "War")
+            {
+                Application.Quit();
+            }
             else if (currentScene == "Ending Good" || currentScene == "Ending Bad" || currentScene == "Ending Neutral")
             {
                 Application.Quit();
