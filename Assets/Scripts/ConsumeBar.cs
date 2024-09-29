@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ConsumeBar : MonoBehaviour
 {
+    // This class is in charge of decreasing the width of the 'z' bar
     public ScrollSpeedHolder scroll;
     Vector3 temp;
 
