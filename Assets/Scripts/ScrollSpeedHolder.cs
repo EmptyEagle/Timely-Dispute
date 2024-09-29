@@ -10,9 +10,8 @@ public class ScrollSpeedHolder : MonoBehaviour
     public float maxSeconds = 8;
     public float secondsLeft;
 
-    public bool knowsTruth;
-    public float keyWordTime;
-    public int level;
+    public bool knowsDrunk;
+    public float drunkTime;
 
     public GameObject endChoicesGood;
     public GameObject endChoicesBad;
@@ -20,8 +19,8 @@ public class ScrollSpeedHolder : MonoBehaviour
     void Start()
     {
         secondsLeft = maxSeconds;
-        knowsTruth = false;
-        keyWordTime = 0f;
+        knowsDrunk = false;
+        drunkTime = 0f;
         endChoicesGood.SetActive(false);
         endChoicesBad.SetActive(false);
     }

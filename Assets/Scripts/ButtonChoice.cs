@@ -1,14 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class ButtonChoice : MonoBehaviour
 {
     public ScrollSpeedHolder scroll;
     public GameObject speaker;
     public GameObject arrows;
-    public bool hasThreeArrows = false;
 
     public GameObject choice1;
     public GameObject choice2;
@@ -60,10 +58,6 @@ public class ButtonChoice : MonoBehaviour
             choice2.SetActive(true);
             Debug.Log("Pressed down");
             this.gameObject.SetActive(false);
-        }
-        else if (hasThreeArrows && Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            SceneManager.LoadScene("War");
         }
     }
 }

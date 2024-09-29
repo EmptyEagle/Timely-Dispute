@@ -58,15 +58,10 @@ public class ReadingDialogue : MonoBehaviour
             {
                 scroll.delay = 0.03f;
                 scroll.secondsLeft -= 0.025f;
-                if (scroll.level == 1 && (fullText.Contains("drunk") || fullText.Contains("alcohol") || fullText.Contains("DRUNK") || fullText.Contains("drinking") || fullText.Contains("drink") || fullText.Contains("drunken")))
+                if (fullText.Contains("drunk") || fullText.Contains("alcohol") || fullText.Contains("DRUNK") || fullText.Contains("drinking") || fullText.Contains("drink") || fullText.Contains("drunken"))
                 {
-                    scroll.keyWordTime += 0.025f;
-                    //Debug.Log(scroll.keyWordTime);
-                }
-                else if (scroll.level == 2 && (fullText.Contains("pig") || fullText.Contains("eat")))
-                {
-                    scroll.keyWordTime += 0.025f;
-                    Debug.Log(scroll.keyWordTime);
+                    scroll.drunkTime += 0.025f;
+                    //Debug.Log(scroll.drunkTime);
                 }
                 //Debug.Log(scroll.secondsLeft);
             }
@@ -77,7 +72,7 @@ public class ReadingDialogue : MonoBehaviour
         yield return new WaitForSeconds(.05f);
         if (isLast)
         {
-            if (scroll.knowsTruth)
+            if (scroll.knowsDrunk)
             {
                 scroll.endChoicesGood.SetActive(true);
             }
@@ -89,9 +84,9 @@ public class ReadingDialogue : MonoBehaviour
             this.gameObject.SetActive(false);
         }
         nextDialogue.SetActive(true);
-        if (scroll.keyWordTime > 0.5f)
+        if (scroll.drunkTime > 0.5f)
         {
-            scroll.knowsTruth = true;
+            scroll.knowsDrunk = true;
         }
         this.gameObject.SetActive(false);
     }
