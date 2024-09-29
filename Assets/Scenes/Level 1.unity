@@ -1889,6 +1889,7 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   choice1: {fileID: 1678726760}
   choice2: {fileID: 1478153222}
+  isGood: 0
 --- !u!1 &751123241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2879,7 +2880,7 @@ MonoBehaviour:
   isFirst: 0
   isLast: 0
   nextDialogue: {fileID: 0}
-  fullText: ...Huh?...
+  fullText: '...Huh?... '
 --- !u!114 &1114622160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5515,6 +5516,7 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   choice1: {fileID: 1555680383}
   choice2: {fileID: 1114622157}
+  isGood: 0
 --- !u!1 &1971429137
 GameObject:
   m_ObjectHideFlags: 0

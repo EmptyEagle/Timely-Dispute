@@ -9,12 +9,19 @@ public class ButtonChoice : MonoBehaviour
 
     public GameObject choice1;
     public GameObject choice2;
+    public bool isGood;
+
+    static int goodPoints;
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
+            if (isGood)
+            {
+
+            }
             speaker.SetActive(true);
             choice1.SetActive(true);
             Debug.Log("Pressed up");
