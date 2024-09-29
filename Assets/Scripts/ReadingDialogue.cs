@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ReadingDialogue : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class ReadingDialogue : MonoBehaviour
     public GameObject speaker;
     public bool isFirst = false;
     public bool isLast = false;
+    public bool isFinalInScene = false;
+    public int ending;
     public GameObject nextDialogue;
     public string fullText;
     string currentText = "";
@@ -87,6 +90,25 @@ public class ReadingDialogue : MonoBehaviour
             }
             speaker.SetActive(false);
             this.gameObject.SetActive(false);
+        }
+        if (isFinalInScene)
+        {
+            if (ending == 1 && scroll.level == 1)
+            {
+                SceneManager.LoadScene("Compensation");
+            }
+            else if (ending == 2 && scroll.level == 1)
+            {
+                SceneManager.LoadScene("Drunken");
+            }
+            else if (ending == 3 && scroll.level == 1)
+            {
+                SceneManager.LoadScene("Both Jailed");
+            }
+            else if (ending == 4 && scroll.level == 1)
+            {
+                SceneManager.LoadScene("Huh");
+            }
         }
         nextDialogue.SetActive(true);
         if (scroll.keyWordTime > 0.5f)
