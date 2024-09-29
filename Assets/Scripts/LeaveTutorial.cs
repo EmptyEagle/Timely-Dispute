@@ -11,7 +11,7 @@ public class LeaveTutorial : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene("Dispute 1");
         }
     }
 }

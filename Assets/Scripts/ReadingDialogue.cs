@@ -33,17 +33,25 @@ public class ReadingDialogue : MonoBehaviour
     {
         for(int i = 0; i < fullText.Length; i++)
         {
-            if (this.name.Contains("King"))
-            {
-                speaker.GetComponent<Text>().text = "<b>King:</b>";
-            }
-            else if (this.name.Contains("Peasant 1"))
+            if (this.name.Contains("Peasant 1"))
             {
                 speaker.GetComponent<Text>().text = "<b>Peasant 1:</b>";
             }
             else if (this.name.Contains("Peasant 2"))
             {
                 speaker.GetComponent<Text>().text = "<b>Peasant 2:</b>";
+            }
+            else if (this.name.Contains("Warlock Peasant"))
+            {
+                speaker.GetComponent<Text>().text = "<b>Warlock Peasant:</b>";
+            }
+            else if (this.name.Contains("Kingdom Peasant"))
+            {
+                speaker.GetComponent<Text>().text = "<b>Kingdom Peasant:</b>";
+            }
+            else if (this.name.Contains("King"))
+            {
+                speaker.GetComponent<Text>().text = "<b>King:</b>";
             }
             scroll.delay = delayOverride;
             if (Input.GetKey("z") && scroll.secondsLeft > 0f)
