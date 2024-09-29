@@ -279,7 +279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187551147}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -92, y: -35.5, z: 0}
+  m_LocalPosition: {x: -92, y: -35.5, z: -1}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6194,7 +6194,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2137112109}
   - component: {fileID: 2137112108}
-  - component: {fileID: 2137112110}
   m_Layer: 0
   m_Name: Background Music
   m_TagString: Untagged
@@ -6211,9 +6210,9 @@ AudioSource:
   m_GameObject: {fileID: 2137112107}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 386be586a725b8a4b9266439250e1654, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9651a70137535064093a07510c268ca3, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -6313,18 +6312,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2137112110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137112107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9201ec4f56cbe41488ce14fef823f834, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2138714406
 GameObject:
   m_ObjectHideFlags: 0
