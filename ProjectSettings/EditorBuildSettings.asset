@@ -11,4 +11,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dispute 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Dispute 2.unity
+    guid: 81e02302e36dcb3488da979fd2903602
+  - enabled: 1
+    path: Assets/Scenes/Resolutions/Compensated.unity
+    guid: 9183a729cb08722428920ed1220c130b
+  - enabled: 1
+    path: Assets/Scenes/Resolutions/Drunken.unity
+    guid: f96519db854d8594ab309215c12d0939
+  - enabled: 1
+    path: Assets/Scenes/Resolutions/Both Jailed.unity
+    guid: 3b79c3e79d24c854d8f2c12fa1473deb
+  - enabled: 1
+    path: Assets/Scenes/Resolutions/Huh.unity
+    guid: 4a2b4b4b845ed2c45a9d91d6b52d70e7
+  - enabled: 1
+    path: Assets/Scenes/Resolutions/Warlock Peasant Locked.unity
+    guid: a5d3095dfd941db419f110e34848f160
+  - enabled: 1
+    path: Assets/Scenes/Resolutions/Kingdom Peasant Locked.unity
+    guid: b220f7a1726afbe4da2d1ff7c48c663f
+  - enabled: 1
+    path: Assets/Scenes/Resolutions/Solve Elsewhere.unity
+    guid: 2994196755ef00c4fb2d4c79340c0cb0
+  - enabled: 1
+    path: Assets/Scenes/Resolutions/Huh 2.unity
+    guid: e371788c7ae37fd4fbd2a55b0fcafc0c
   m_configObjects: {}

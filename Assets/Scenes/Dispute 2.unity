@@ -178,7 +178,8 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
-  nextDialogue: {fileID: 0}
+  ending: 0
+  nextDialogue: {fileID: 657823481}
   fullText: 'Yesssss, the fall of the Kingdom is sssssssoon to come! '
 --- !u!114 &10612526
 MonoBehaviour:
@@ -278,7 +279,8 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
-  nextDialogue: {fileID: 0}
+  ending: 0
+  nextDialogue: {fileID: 10612523}
   fullText: "My own king betrays his honor\u2026 for shame! "
 --- !u!114 &22332212
 MonoBehaviour:
@@ -378,6 +380,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 906589749}
   fullText: 'If a pig could eat it that easily, any other animal could too! '
 --- !u!114 &50498666
@@ -434,6 +437,7 @@ GameObject:
   - component: {fileID: 76661311}
   - component: {fileID: 76661310}
   - component: {fileID: 76661309}
+  - component: {fileID: 76661312}
   m_Layer: 5
   m_Name: Kingdom Peasant Confusion Second
   m_TagString: Untagged
@@ -478,8 +482,9 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 0}
-  fullText: 'My end is neigh... '
+  fullText: 'My end is neigh... (Press Enter) '
 --- !u!114 &76661310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,6 +527,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76661307}
   m_CullTransparentMesh: 1
+--- !u!114 &76661312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76661307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bed928f321abf4e82d82518f74f7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadScene: Solve Elsewhere
 --- !u!1 &131793927
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +719,7 @@ GameObject:
   - component: {fileID: 159555050}
   - component: {fileID: 159555049}
   - component: {fileID: 159555048}
+  - component: {fileID: 159555051}
   m_Layer: 5
   m_Name: Warlock Peasant Jail Warlock Second
   m_TagString: Untagged
@@ -745,8 +764,9 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 0}
-  fullText: 'When the Warlock King comes, you will PAY! '
+  fullText: 'When the Warlock King comes, you will PAY! (Press Enter) '
 --- !u!114 &159555049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,6 +809,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159555046}
   m_CullTransparentMesh: 1
+--- !u!114 &159555051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159555046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bed928f321abf4e82d82518f74f7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadScene: Warlock Peasant Locked
 --- !u!1 &162504717
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,6 +958,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 651906973}
   fullText: 'Now my sweet Nickels is DEAD thanks to you! '
 --- !u!114 &165440138
@@ -1025,6 +1059,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1280617755}
   fullText: 'Sort this amongst yourselves! I am busy! '
 --- !u!114 &187905346
@@ -1125,6 +1160,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 76661307}
   fullText: Yessss it issss high time I ate the ressssst of your family.
 --- !u!114 &189185336
@@ -1225,6 +1261,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1307936482}
   fullText: 'How could my day get any worse? '
 --- !u!114 &200756245
@@ -1365,6 +1402,7 @@ GameObject:
   - component: {fileID: 249421127}
   - component: {fileID: 249421126}
   - component: {fileID: 249421125}
+  - component: {fileID: 249421128}
   m_Layer: 5
   m_Name: Kingdom Peasant Jail Pig Owner Second
   m_TagString: Untagged
@@ -1409,8 +1447,9 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 0}
-  fullText: "YOU\u2019LL PAY FOR THIS, YOU GOOD FOR NOTHING KING! "
+  fullText: "YOU\u2019LL PAY FOR THIS, YOU GOOD FOR NOTHING KING! (Press Enter) "
 --- !u!114 &249421126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1453,6 +1492,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249421123}
   m_CullTransparentMesh: 1
+--- !u!114 &249421128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249421123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bed928f321abf4e82d82518f74f7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadScene: Kingdom Peasant Locked
 --- !u!1 &326638415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,6 +1661,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1897099603}
   fullText: 'You good for nothing Warlocks! '
 --- !u!114 &337952245
@@ -1709,6 +1762,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1972609934}
   fullText: 'First, you kill in cold blood. '
 --- !u!114 &338753867
@@ -1809,6 +1863,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1159776964}
   fullText: "Ssssssince you wouldn\u2019t keep your pig from eating my garden and
     vegetablessssss! "
@@ -2065,6 +2120,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 670500750}
   fullText: 'We spare these beautiful creatures and only eat the kingdomdwellers!! '
 --- !u!114 &370336312
@@ -2165,6 +2221,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 337952242}
   fullText: 'That pig wantssss to sssstart a WAR! '
 --- !u!114 &377071235
@@ -2265,6 +2322,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1445421192}
   fullText: 'You and your friend are going INTO THE DUNGEON! '
 --- !u!114 &396129183
@@ -2365,6 +2423,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 200756242}
   fullText: 'Now, you want to kill my own king??? '
 --- !u!114 &432937414
@@ -2465,6 +2524,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 765163221}
   fullText: 'Now I cannot feed my own family! '
 --- !u!114 &438690418
@@ -2565,6 +2625,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 159555046}
   fullText: 'Good riddance, you got what you deserved! '
 --- !u!114 &465440022
@@ -2745,6 +2806,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 1
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1155504691}
   fullText: '(Oh boy, this is going to be a treat.) '
 --- !u!114 &595478593
@@ -2845,6 +2907,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 187905343}
   fullText: 'I do not understand your troubles. '
 --- !u!114 &602799756
@@ -2945,6 +3008,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1283437936}
   fullText: 'I could eat you right now, I bet you would taste zessssssssty... '
 --- !u!114 &605614245
@@ -3045,6 +3109,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 338753864}
   fullText: 'Now this utter delinquent wants to EAT MY OWN KING!!! '
 --- !u!114 &630632451
@@ -3145,6 +3210,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1670892081}
   fullText: 'I had to kill the pig, he went into my garden and ate my plants and
     vegetablessss. '
@@ -3202,6 +3268,7 @@ GameObject:
   - component: {fileID: 657823485}
   - component: {fileID: 657823484}
   - component: {fileID: 657823483}
+  - component: {fileID: 657823486}
   m_Layer: 5
   m_Name: Kingdom Peasant Bad Second
   m_TagString: Untagged
@@ -3246,8 +3313,9 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 0}
-  fullText: "My poor pig\u2026 "
+  fullText: "My poor pig\u2026 (Press Enter) "
 --- !u!114 &657823484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3290,6 +3358,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657823481}
   m_CullTransparentMesh: 1
+--- !u!114 &657823486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657823481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bed928f321abf4e82d82518f74f7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadScene: Huh 2
 --- !u!1 &670500750
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,6 +3427,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 930199504}
   fullText: 'AND THIS HAPPENED ON THE BORDER REGION ON OUR SIDE OF THE BORDER! '
 --- !u!114 &670500753
@@ -3446,6 +3528,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1751513655}
   fullText: 'I raised my pig to eat whatever it wants! '
 --- !u!114 &696880709
@@ -3630,6 +3713,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 797600686}
   fullText: 'And I lost a member of my family thanks to that wrinkled dwarf! '
 --- !u!114 &765163224
@@ -3730,6 +3814,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1019785338}
   fullText: 'DO YOU REALIZE HOW HARD I WORKED TO RAISE MY PIG?? '
 --- !u!114 &797600689
@@ -3960,6 +4045,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 1
+  ending: 0
   nextDialogue: {fileID: 0}
   fullText: 'THESE BEASTS CANNOT STAND! '
 --- !u!114 &854167454
@@ -4060,6 +4146,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1753322001}
   fullText: 'Your love of that pig sssssickensssss me, you love that pig more than
     your own wife! '
@@ -4268,6 +4355,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 605614242}
   fullText: "And you\u2019re busy complaining that I shot one little pig??? "
 --- !u!114 &930199507
@@ -4368,6 +4456,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1971375861}
   fullText: 'That goes against the rules of our common people. INTO THE DUNGEON! '
 --- !u!114 &961900413
@@ -4468,6 +4557,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 347758553}
   fullText: 'My best friend, she ate your wife. '
 --- !u!114 &961900483
@@ -4568,6 +4658,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1335458815}
   fullText: "I\u2019ve heard many thingssss about you kingdomdwellersssss, but I
     never thought it went this far! "
@@ -4669,6 +4760,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 2064224273}
   fullText: "My poor Nickels\u2026 "
 --- !u!114 &1019785341
@@ -4769,7 +4861,8 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
-  nextDialogue: {fileID: 0}
+  ending: 0
+  nextDialogue: {fileID: 22332209}
   fullText: ...Huh?...
 --- !u!114 &1043275249
 MonoBehaviour:
@@ -4926,6 +5019,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 2014312201}
   fullText: 'My liege, the man before you has killed on '
 --- !u!114 &1155504694
@@ -5026,6 +5120,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1237165734}
   fullText: 'MY KING THIS IS OUTLANDISH! '
 --- !u!114 &1159776967
@@ -5126,6 +5221,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 377071232}
   fullText: 'I wassss protecting my own garden, that pig issss a dissssgrace to your
     nation! '
@@ -5395,6 +5491,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 854167451}
   fullText: 'WE NEED WAR IMMEDIATELY! '
 --- !u!114 &1237165737
@@ -5575,6 +5672,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 189185333}
   fullText: "The king stays neutral on his own citizens\u2026 for shame! "
 --- !u!114 &1280617758
@@ -5675,6 +5773,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 630632448}
   fullText: 'Why, Mr. King you sssssay, you look very delicioussssssssss yourself. '
 --- !u!114 &1283437939
@@ -5775,6 +5874,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 2138208364}
   fullText: 'I heard some bad newsss about your wife... '
 --- !u!114 &1307936485
@@ -5875,6 +5975,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1970052533}
   fullText: 'I hear they kill in open blood. '
 --- !u!114 &1335458818
@@ -6061,6 +6162,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 465440019}
   fullText: 'sssss if my best friend can eat his wife, he will find a way to eat
     you toooo ssss... '
@@ -6162,6 +6264,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 961900410}
   fullText: 'and you did not try to stop it! '
 --- !u!114 &1493338841
@@ -6346,6 +6449,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 438690415}
   fullText: 'I have no more cropssss thankssss to that disgusting freak! '
 --- !u!114 &1670892084
@@ -6526,6 +6630,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 249421123}
   fullText: 'You desssserved it, you should not have let that thing eat my garden! '
 --- !u!114 &1737000441
@@ -6626,6 +6731,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1831836971}
   fullText: 'AND YOU SHOT IT!! '
 --- !u!114 &1751513658
@@ -6726,6 +6832,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 980969737}
   fullText: 'HERESAY MY LORD! '
 --- !u!114 &1753322004
@@ -6990,6 +7097,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 50498663}
   fullText: "It\u2019s not MY fault you couldn\u2019t protect your own garden! "
 --- !u!114 &1831836974
@@ -7090,6 +7198,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1970582296}
   fullText: 'That was MY PIG!! MY PIG! '
 --- !u!114 &1897099606
@@ -7190,6 +7299,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1187330852}
   fullText: 'Your highnessss, you ssssee, I had to kill the pig. '
 --- !u!114 &1962532900
@@ -7290,6 +7400,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 370336309}
   fullText: 'I hear they eat the blood of innocent animals. '
 --- !u!114 &1970052536
@@ -7390,6 +7501,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 165440135}
   fullText: 'My lord, he went onto MY PROPERTY and SHOT MY PIG! '
 --- !u!114 &1970582299
@@ -7490,6 +7602,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1737000438}
   fullText: 'MY WIFE IS DEAD, MY PIG IS DEAD AND MY OWN KING BETRAYED ME????? '
 --- !u!114 &1971375864
@@ -7658,6 +7771,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 432937411}
   fullText: 'Hot blood! '
 --- !u!114 &1972609937
@@ -7758,6 +7872,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1962532897}
   fullText: 'MY OWN PROPERTY! '
 --- !u!114 &2014312204
@@ -7858,6 +7973,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 396129180}
   fullText: 'You should not have dared killed a pig on our land! '
 --- !u!114 &2041152773
@@ -7958,6 +8074,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 1493338838}
   fullText: 'Your pig should have been kept in control to ensure this did not happen, '
 --- !u!114 &2047214392
@@ -8058,6 +8175,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 696880706}
   fullText: 'You mean YOU raised your pig to go eat my precioussss garden??? '
 --- !u!114 &2064224276
@@ -8158,6 +8276,7 @@ MonoBehaviour:
   speaker: {fileID: 526206797}
   isFirst: 0
   isLast: 0
+  ending: 0
   nextDialogue: {fileID: 961900480}
   fullText: 'WHAT? '
 --- !u!114 &2138208367

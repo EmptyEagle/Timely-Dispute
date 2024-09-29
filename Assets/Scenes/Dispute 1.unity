@@ -426,7 +426,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 2100572508}
   fullText: 'What are we doing here? '
@@ -528,7 +527,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1352107746}
   fullText: 'I would also go so far as to request a holt of this conduct of his. '
@@ -710,7 +708,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 666147606}
   fullText: "I would have offered to replace it with a shovel of my own except I
@@ -813,7 +810,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 2063871302}
   fullText: 'I am formally requesting you command him to stop drinking and become
@@ -916,7 +912,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1984491407}
   fullText: 'SINGLE. '
@@ -1216,7 +1211,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1252523088}
   fullText: 'Am I not a free peasant of this great kingdom?! '
@@ -1402,7 +1396,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 349261121}
   fullText: 'EVERY. '
@@ -1504,7 +1497,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 2112648053}
   fullText: "Your eminence, this isn\u2019t the first time this has happened. "
@@ -1606,7 +1598,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 300526975}
   fullText: My king!
@@ -1708,7 +1699,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 2138714406}
   fullText: 'If nothing else, it makes one hilarious story. '
@@ -1894,7 +1884,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 570654990}
   fullText: 'Neither can I afford one to give as it would affect my alcohol fund! '
@@ -2137,7 +2126,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 1
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 0}
   fullText: 'Let me enjoy my time doing as I please! '
@@ -2239,7 +2227,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 852892874}
   fullText: 'My king, this man stumbled into my garden drunk last night and squished
@@ -2342,7 +2329,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1644671406}
   fullText: "It was an accident your grace. He shouldn\u2019t have left the gate
@@ -2445,7 +2431,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1463874423}
   fullText: 'and I will continue to drink until the day I have my last. '
@@ -2547,7 +2532,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1439426697}
   fullText: 'I implore you, your highness. '
@@ -2649,7 +2633,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 1
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 846660606}
   fullText: 'What brings you two here today? '
@@ -2751,7 +2734,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 447505720}
   fullText: 'So what I have a little fun and a few unfortunate things happen? '
@@ -2956,6 +2938,7 @@ GameObject:
   - component: {fileID: 1114622161}
   - component: {fileID: 1114622160}
   - component: {fileID: 1114622159}
+  - component: {fileID: 1114622162}
   m_Layer: 5
   m_Name: King Bad
   m_TagString: Untagged
@@ -3000,10 +2983,9 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 1
   ending: 4
   nextDialogue: {fileID: 0}
-  fullText: '...Huh?... '
+  fullText: '...Huh?... (Press Enter) '
 --- !u!114 &1114622160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3046,6 +3028,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114622157}
   m_CullTransparentMesh: 1
+--- !u!114 &1114622162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114622157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bed928f321abf4e82d82518f74f7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadScene: Huh
 --- !u!1 &1179946860
 GameObject:
   m_ObjectHideFlags: 0
@@ -3102,7 +3097,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1560092223}
   fullText: 'Last season he thought it would be funny to let all my sheep out of
@@ -3319,7 +3313,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1782603806}
   fullText: 'I agree what has happened has been unfortunate, '
@@ -3501,7 +3494,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1601397682}
   fullText: 'what he is doing is wrong and it is hurting all of us. '
@@ -3603,7 +3595,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 579322560}
   fullText: 'That is all true, your excellence. '
@@ -3705,7 +3696,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1306066735}
   fullText: "When I asked what happened to it he said he \u201Cwas drunk and tried
@@ -3808,7 +3798,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1179946860}
   fullText: "Like I said this isn\u2019t the first time this has happened. "
@@ -3996,7 +3985,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1290166471}
   fullText: 'Show him the error of his ways and make him realize '
@@ -4098,7 +4086,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1021460379}
   fullText: 'What is the harm? '
@@ -4284,7 +4271,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 242603600}
   fullText: 'There is nothing wrong with making bad decisions in the heat of a drunken
@@ -4343,6 +4329,7 @@ GameObject:
   - component: {fileID: 1469006476}
   - component: {fileID: 1469006475}
   - component: {fileID: 1469006474}
+  - component: {fileID: 1469006477}
   m_Layer: 5
   m_Name: King Free Second
   m_TagString: Untagged
@@ -4387,10 +4374,10 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 1
   ending: 2
   nextDialogue: {fileID: 0}
-  fullText: 'Please go, and continue putting a drunken smile on your face. '
+  fullText: 'Please go, and continue putting a drunken smile on your face. (Press
+    Enter) '
 --- !u!114 &1469006475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4433,6 +4420,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469006472}
   m_CullTransparentMesh: 1
+--- !u!114 &1469006477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469006472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bed928f321abf4e82d82518f74f7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadScene: Drunken
 --- !u!1 &1471483542
 GameObject:
   m_ObjectHideFlags: 0
@@ -4445,6 +4445,7 @@ GameObject:
   - component: {fileID: 1471483546}
   - component: {fileID: 1471483545}
   - component: {fileID: 1471483544}
+  - component: {fileID: 1471483547}
   m_Layer: 5
   m_Name: King Jail Second
   m_TagString: Untagged
@@ -4489,11 +4490,10 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 1
   ending: 1
   nextDialogue: {fileID: 0}
   fullText: 'Stop your consumption of alcohol immediately or face your years in the
-    DUNGEON! '
+    DUNGEON! (Press Enter) '
 --- !u!114 &1471483545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4536,6 +4536,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471483542}
   m_CullTransparentMesh: 1
+--- !u!114 &1471483547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471483542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bed928f321abf4e82d82518f74f7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadScene: Compensated
 --- !u!1 &1478153222
 GameObject:
   m_ObjectHideFlags: 0
@@ -4592,7 +4605,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1469006472}
   fullText: 'Negligence as easily avoidable as that is your own fault. '
@@ -4734,6 +4746,7 @@ GameObject:
   - component: {fileID: 1555680387}
   - component: {fileID: 1555680386}
   - component: {fileID: 1555680385}
+  - component: {fileID: 1555680388}
   m_Layer: 5
   m_Name: King Confusion
   m_TagString: Untagged
@@ -4778,10 +4791,9 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 1
   ending: 3
   nextDialogue: {fileID: 0}
-  fullText: 'What is this insane drivel? Send them both to the dungeon! '
+  fullText: 'What is this insane drivel? Send them both to the dungeon! (Press Enter) '
 --- !u!114 &1555680386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4824,6 +4836,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555680383}
   m_CullTransparentMesh: 1
+--- !u!114 &1555680388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555680383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bed928f321abf4e82d82518f74f7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadScene: Both Jailed
 --- !u!1 &1560092223
 GameObject:
   m_ObjectHideFlags: 0
@@ -4880,7 +4905,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 523072000}
   fullText: 'I lost '
@@ -4982,7 +5006,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 912731642}
   fullText: 'Think about how many bedrolls we have missed out making for our troops
@@ -5272,7 +5295,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 547966045}
   fullText: 'So instead of squashed squashes I would have a broken gate and fence?! '
@@ -5374,7 +5396,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1471483542}
   fullText: 'Peasant 2 shall repay the market price for each squished squash! '
@@ -5476,7 +5497,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 908204375}
   fullText: "but I was drunk\u2026 "
@@ -5578,7 +5598,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 332421401}
   fullText: 'HE WAS DRUNK THEN TOO! '
@@ -5817,7 +5836,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1824703576}
   fullText: 'ONE. '
@@ -5919,7 +5937,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1412804866}
   fullText: 'functional and helpful citizen of the kingdom! '
@@ -6021,7 +6038,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 811215675}
   fullText: 'Is this really worthy of your time, highest crown?! Please, let me go. '
@@ -6123,7 +6139,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 1326941548}
   fullText: 'Last week he returned a shovel to me snapped in two. '
@@ -6225,7 +6240,6 @@ MonoBehaviour:
   speaker: {fileID: 1971429137}
   isFirst: 0
   isLast: 0
-  isFinalInScene: 0
   ending: 0
   nextDialogue: {fileID: 325705364}
   fullText: 'Besides I said I was sorry and apologized profusely. '
