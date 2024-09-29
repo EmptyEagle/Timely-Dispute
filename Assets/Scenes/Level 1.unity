@@ -557,7 +557,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <b>Huh?</b>
+  m_Text: <b>...Huh?...</b>
 --- !u!222 &324965936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2879,7 +2879,7 @@ MonoBehaviour:
   isFirst: 0
   isLast: 0
   nextDialogue: {fileID: 0}
-  fullText: 'What is this insane drivel? Send them both to the dungeon! '
+  fullText: ...Huh?...
 --- !u!114 &1114622160
 MonoBehaviour:
   m_ObjectHideFlags: 0
